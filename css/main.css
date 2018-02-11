@@ -1,0 +1,259 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway|Merriweathe|Bree+Serif|Roboto');
+
+* {
+	padding: 0;
+	margin: 0;
+}
+
+ul, li {
+	padding: 0;
+	margin: 0;
+	display: block;
+}
+
+.menu {
+	font-family: 'Roboto', sans-serif;
+	margin: 20px 0;
+	justify-content: space-between;
+}
+
+.menu__item{
+	font-size: 13px;
+	font-weight: bold;
+}
+
+.menu__item a {
+	color: #2c465a;
+	text-transform: uppercase;
+	text-decoration: none;
+	padding-bottom: 5px;
+}
+
+.menu__item a:hover {
+	border-bottom: 3px solid rgb(248,203,27);
+}
+
+.signin {
+	background: rgb(248,203,27);
+	color: #fff;
+	padding: 15px 15px;
+	display: block;
+	cursor: pointer;
+	border: 0;
+	border-radius: 20px;
+}
+
+.signin:active {
+	border: 0;
+}
+
+.main-header {
+	padding: 24px 0;
+}
+
+.offer {
+	background: rgb(248,203,27);;
+	text-align: center;
+	padding-bottom: 70px;
+}
+
+.offer img {
+	padding-top: 100px;
+	width: 70%;
+}
+
+.slogan {
+	font-size: 30px;
+	padding-top: 70px;
+	color: #fff;
+	text-transform: uppercase;
+	font-family: 'Roboto', sans-serif;
+	font-weight: bold;
+}
+
+.kids__photo {
+	margin-top: 50px;
+	text-align: center;
+}
+
+.kids__photo div {
+	box-shadow: 0px 5px 40px 40px solid rgb(0,0,0);
+}
+
+.kids__photo img{
+	width: 100%;
+	box-shadow: 0 0 30px -2px rgb(255, 217, 0);
+}
+
+.kids {
+	margin: 70px 0;
+}
+
+.kids__header {
+	font-size: 60px;
+	text-align: center;
+	text-transform: uppercase;
+	font-family: 'Roboto', sans-serif;
+}
+
+.k1 {
+	padding-top: 70px;
+}
+
+.k2 {
+	padding-top: 30px;
+}
+
+.k3, .k5 {
+	padding-top: 85px;
+}
+
+.foradults__header {
+	margin: 70px 0;
+	font-size: 60px;
+	text-align: center;
+	text-transform: uppercase;
+	font-family: 'Roboto', sans-serif;
+}
+
+.foradults__info {
+	font-size: 24px;
+	text-align: justify;
+}
+
+.foradults__img {
+	text-align: center;
+	margin: 40px 0;
+}
+
+hr {
+	border: none;
+    background-color: rgb(248,203,27);
+    color: rgb(248,203,27);
+    height: 5px;
+    margin: 100px auto;
+    width: 400px;
+    border-radius: 20px;
+}
+
+.forkids {
+	margin-bottom: 70px;
+}
+
+.forkids__header {
+	margin-bottom: 70px;
+	font-size: 60px;
+	text-align: center;
+	text-transform: uppercase;
+	font-family: 'Roboto', sans-serif;
+}
+
+.forkids__info {
+	font-size: 24px;
+	text-align: justify;
+}
+
+.forkids__img {
+	text-align: center;
+	margin: 40px 0;
+}
+
+.contacts {
+	background: rgb(248,203,27);
+	padding-top: 100px;
+	padding-bottom: 50px;
+	color: #fff;
+}
+
+.contacts__info {
+	font-size: 30px;
+	text-transform: uppercase;
+	font-family: 'Roboto', sans-serif;
+	font-weight: bold;
+	padding-bottom: 50px;
+}
+
+.contacts__imgs {
+	margin-top: -10px;
+	padding-bottom: 50px;
+}
+
+.contacts__img img {
+	width: 50px;
+}
+
+.contacts__phone {
+	font-size: 30px;
+	text-transform: uppercase;
+	font-family: 'Roboto', sans-serif;
+	font-weight: bold;
+	padding-bottom: 50px;
+}
+
+.contact {
+	padding-left: 10px;
+}
+
+.contacts a {
+	text-decoration: none;
+	color: #fff;
+}
+
+.contacts a:hover {
+	color: rgb(37, 34, 34);
+}
+
+.adress {
+	background: rgb(248,203,27);
+	padding: 10px 0;
+	color: #fff;
+	font-size: 20px;
+	text-align: center;
+}
+
+.adress span {
+	font-size: 40px;
+	text-transform: uppercase;
+	font-family: 'Roboto', sans-serif;
+}
+
+.modal2 {
+	display: none;
+	position: fixed;
+	width: 100%;
+	height: 100%;
+	left: 0;
+	top: 0;
+	background-color: rgba(0,0,0,0.3);
+}
+
+.modal2__overlay {
+	position: fixed;
+	width: 100%;
+	height: 100%;
+	left: 0;
+	top: 0;
+}
+
+.modal2__body {
+	width: 400px;
+	height: 200px;
+	position: fixed;
+	left: 50%;
+	top: 50%;
+	margin-left: -200px;
+	margin-top: -100px;
+	background-color: #fff;
+}
+
+.show {
+	display: block !important;
+}
+
+.clients img {
+	width: 80%;
+	box-shadow: 0 0 30px -2px rgb(255, 217, 0); 
+}
+.clients p {
+	text-align: center;
+}
